@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="musicplay.css">
+</head>
+<body>
+    <div class="music-player">
+        <div id="audioimg">
+            <img src="\dj.jpg" id="image" alt="songimage" width="100px" height="auto">
+        </div>
+        <audio id="audio" src=""></audio>
+        <div class="current-song">No song playing</div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="play">▶</button>
+            <button id="pause">⏸</button>
+            <button id="next">Next</button>
+            <button id="like">🤍</button>
+        </div>
+        
+    </div>
+    <script src="musicplay.js"></script>
+</body>
+</html>
