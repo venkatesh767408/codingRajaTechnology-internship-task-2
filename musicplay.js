@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const songs = [
         { title: "Brain Dance", src: "\Brain Dance.mp3" },
         { title: "Equatorial complex", src: "\Equatorial Complex.mp3" },
-        { title: "Galactic Rap", src: "\Galactic Rap.mp3" },
-        { title: "Garden Music",  src:"\Garden Music.mp3"},        
+       // { title: "Galactic Rap", src: "\Galactic Rap.mp3" },
+       // { title: "Garden Music",  src:"\Garden Music.mp3"},        
         { title: "Nightdreams",  src:"\Nightdreams.mp3"},        
         { title: "River Fire ",  src:"\River Fire.mp3"},        
-        { title: "River Flute",  src:"\River Flute.mp3"}, 
+       // { title: "River Flute",  src:"\River Flute.mp3"}, 
         
     ];
 
